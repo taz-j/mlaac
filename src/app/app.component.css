@@ -1,4 +1,120 @@
   .button-menu {
-    color: Green;
-    background-color: black;
+      color: #00b300;
+      background-color: black;
+      border: none;
+      text-transform: uppercase;
+      height: 50px;
+      width: 500px;
+      text-shadow: 2px 1px #004d00;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+  }
+  
+  table {
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      border-style: none;
+  }
+  
+  tr {
+      padding: 0;
+      margin: 0;
+      background-color: yellow;
+  }
+  
+  td {
+      padding: 0;
+      margin: 0;
+      background-color: black;
+  }
+  /*
+  .table-coder-button {
+      background-color: black;
+      color: #00b300;
+      border: none;
+      text-transform: uppercase;
+      height: 50px;
+      width: 50px;
+      text-shadow: 2px 1px #004d00;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      text-align: center;
+  }
+     .table-left-button {
+      background-color: black;
+      color: #00b300;
+      border: none;
+      height: 50px;
+      width: 50px;
+      text-shadow: 2px 1px #004d00;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 35px;
+      text-align: right;
+  }
+  
+  .table-right-button {
+      background-color: black;
+      color: #00b300;
+      border: none;
+      height: 50px;
+      width: 250px;
+      text-shadow: 2px 1px #004d00;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 35px;
+      text-align: left;
+  }
+  */
+  
+  .table-button {
+      background-color: black;
+      color: #00b300;
+      border: none;
+      height: 50px;
+      text-shadow: 2px 1px #004d00;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .table-coder-button {
+      width: 50px;
+      font-size: 40px;
+      text-align: center;
+  }
+  
+  .table-left-button {
+      width: 50px;
+      font-size: 35px;
+      text-align: right;
+  }
+  
+  .table-right-button {
+      width: 250px;
+      font-size: 35px;
+      text-align: left;
+  }
+  
+  .mat-drawer-content {
+      background-image: url("http://getwallpapers.com/wallpaper/full/4/0/b/525637.jpg");
+  }
+  
+  .mat-drawer-inner-container {
+      width: 400px;
+  }
+  
+  div {
+      opacity: 0.75;
+      background-color: black;
+      margin-top: 25px;
+      margin-bottom: 100px;
+      margin-right: 150px;
+      margin-left: 100px;
+      text-align: center;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  h3 {
+      text-transform: uppercase;
   }
