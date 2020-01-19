@@ -2,12 +2,12 @@
 </p>
 <mat-drawer-container fullscreen="fullscreen">
     <!--<mat-drawer mode="side" opened>
-        <button (click)="panelId=1" class="button-menu"> Call Me Taz</button><br>
-        <button (click)="panelId=2" class="button-menu"> 2020 </button><br>
-        <button (click)="panelId=3" class="button-menu"> Down The Line </button><br>
-        <button (click)="panelId=4" class="button-menu"> Creativity </button><br>
-        <button (click)="panelId=5" class="button-menu"> Process </button>
-    </mat-drawer> -->
+            <button (click)="panelId=1" class="button-menu"> Call Me Taz</button><br>
+            <button (click)="panelId=2" class="button-menu"> 2020 </button><br>
+            <button (click)="panelId=3" class="button-menu"> Down The Line </button><br>
+            <button (click)="panelId=4" class="button-menu"> Creativity </button><br>
+            <button (click)="panelId=5" class="button-menu"> Process </button>
+        </mat-drawer> -->
     <mat-drawer mode="side" opened="opened">
         <table>
             <tr>
@@ -20,24 +20,46 @@
                 </td>
             </tr>
             <tr>
-                <td><button (click)="panelId=1" class="table-button table-left-button">2</button></td>
-                <td><button (click)="panelId=1" class="table-button table-coder-button">O</button></td>
-                <td><button (click)="panelId=1" class="table-button table-right-button">2O</button></td>
+                <td>
+                    <button (click)="panelId=2" class="table-button table-left-button">&nbsp;&nbsp;2</button>
+                </td>
+                <td>
+                    <button (click)="panelId=2" class="table-button table-coder-button">O</button>
+                </td>
+                <td>
+                    <button (click)="panelId=2" class="table-button table-right-button">2O</button>
+                </td>
             </tr>
             <tr>
                 <td></td>
-                <td><button (click)="panelId=1" class="table-button table-coder-button">D</button></td>
-                <td><button (click)="panelId=1" class="table-button table-right-button">own the Line</button></td>
+                <td>
+                    <button (click)="panelId=3" class="table-button table-coder-button">D</button>
+                </td>
+                <td>
+                    <button (click)="panelId=3" class="table-button table-right-button">own the Line</button>
+                </td>
             </tr>
             <tr>
-                <td><button (click)="panelId=1" class="table-button table-left-button">Cr</button></td>
-                <td><button (click)="panelId=1" class="table-button table-coder-button">E</button></td>
-                <td><button (click)="panelId=1" class="table-button table-right-button">ativity</button></td>
+                <td>
+                    <button (click)="panelId=4" class="table-button table-left-button">Cr</button>
+                </td>
+                <td>
+                    <button (click)="panelId=4" class="table-button table-coder-button">E</button>
+                </td>
+                <td>
+                    <button (click)="panelId=4" class="table-button table-right-button">ativity</button>
+                </td>
             </tr>
             <tr>
-                <td><button (click)="panelId=1" class="table-button table-left-button">P</button></td>
-                <td><button (click)="panelId=1" class="table-button table-coder-button">R</button></td>
-                <td><button (click)="panelId=1" class="table-button table-right-button">ocess</button></td>
+                <td>
+                    <button (click)="panelId=5" class="table-button table-left-button">&nbsp;&nbsp;P</button>
+                </td>
+                <td>
+                    <button (click)="panelId=5" class="table-button table-coder-button">R</button>
+                </td>
+                <td>
+                    <button (click)="panelId=5" class="table-button table-right-button">ocess</button>
+                </td>
             </tr>
         </table>
 
@@ -45,55 +67,51 @@
     <mat-drawer-content>
         <div *ngIf="panelId==1">
             <h3>Call Me Taz</h3>
-            <p>Hi, I'm Taz, a budding developer with a passion for technology. For the past 9 years I have been working in the Hospitality Industry, however I am undertaking the Coder Academy Fast Track Bootcamp course in order to upskill and change careers
-                to become a Software Developer. I have previously undertaken a Cert 3 in Media, which I feel gives me a solid foundation for studing code. I am also very much a 'girly-girl' by stereotypical standards, and have also studied Hairdressing
-                and Make-up, gaining a Diploma of Specialist Make-up Services. I want to showcase that being a Woman in Tech can have many different appearances, and that just because someone is girly and may look like a 'bimbo', that doesn't mean they
-                don't have the capacity to learn how to code. I am also incredibly passionate about animals, having rescued a fair few over the years. A particular passion of mine is reptiles, which is largely due to how misunderstood they are. I would
-                love to use tech to educate people on how we can help facilitate healthy animal keeping and breeding in Australia, as well as globally.
-            </p>
-            <!-- <ul>
-                                                                                                                                                               <li>Work background</li>
-                                                                                                                                                               <li>Cert 3 Media</li>
-                                                                                                                                                               <li>Girly girl - Make-up/hair</li>
-                                                                                                                                                               <li>Showcase that Women is tech can still be girly</li>
-                                                                                                                                                               <li>Passionate about animals</li>
-                                                                                                                                                             </ul>-->
+            <p>Hi, I'm Taz, a budding developer with a passion for technology.
+                <p>For the past 9 years I have been working in the Hospitality Industry, however I am undertaking the Coder Academy Fast Track Bootcamp course in order to upskill and change careers to become a Software Developer. I have previously undertaken
+                    a Cert 3 in Media, which I feel gives me a solid foundation for studing code. I am also very much a 'girly-girl' by stereotypical standards, and have also studied Hairdressing and Make-up, gaining a Diploma of Specialist Make-up Services.</p>
+                <p>
+                    I want to showcase that being a Woman in Tech can have many different appearances, and that just because someone is girly and may look like a 'bimbo', that doesn't mean they don't have the capacity to learn how to code.</p>
+                <p>
+                    I am also incredibly passionate about animals, having rescued a fair few over the years. A particular passion of mine is reptiles, which is largely due to how misunderstood they are. I would love to use tech to educate people on how we can help facilitate
+                    healthy animal keeping and breeding in Australia, as well as globally.
+                </p>
+                <!-- 
+                    <ul>
+                         <li>Work background</li>
+                         <li>Cert 3 Media</li>
+                         <li>Girly girl - Make-up/hair</li>
+                         <li>Showcase that Women is tech can still be girly</li>
+                         <li>Passionate about animals</li>
+                    </ul>-->
         </div>
 
         <div *ngIf="panelId==2">
             <h3>2020</h3>
             <p>In 2020 I am undertaking the Coder Academy Fast Track Bootcamp course, in the hopes of securing paid employment as a developer upon completion. I have decided to work towards a carreer in software in order to give myself more opportunity in
                 life, as well as working in an industry that is intelllectually stimulating. Through self-study, I have found coding to be extremely fun, though also challenging, and I am thoroughly enjoying learning to solve problems and create awesome
-                things, which is helping me believe in my own capabilities, and has cemented my belief that I will be a valueable asset in the tech community</p>
+                things, which is helping me believe in my own capabilities, and has cemented my belief that I will be a valueable asset in the tech community.</p>
         </div>
 
         <div *ngIf="panelId==3">
             <h3>Down the Line</h3>
-            <p>Down the Line I hope to achieve:</p>
-            <h5>What</h5>
-            <ul>
-                <li>Volunteering in developing countries, teaching kids how to code</li>
-                <li>getting a job as a junior developer</li>
-                <li>Mentor other women coming into the tech industry</li>
-                <li>Use tech to educate on Wildlife, in particular:<br> Natural ecosystems, reptiles & their place in the worldng
-                </li>
-            </ul>
-            <h5>Why</h5>
-            <ul>
-                <li>I want to do these things to give back,<br> as I feel very privileged to have the opportunity to learn to code</li>
-                <li>Help women realise they can do it, regardless of background</li>
-            </ul>
+            <p>Down the Line I hope to volunteer in developing countries to teach kids how to code. I would also like to mentor other women coming into the tech industry, to give back to a community that has welcomed and supported me while undertaking a
+                new career path.</p>
+            <p>I would also like to use tech to educate people on Wildlife, and pair with Animal Rescues in order to reach more people on how we, as a global community, can help reduce the impact we have on natural ecosystems.</p>
+            <p>I have a partiular passion for reptiles, as I feel they are incredibly misunderstood, and a lot of people don't realise how valuable they are to ecosystems, and the impact that decimating the wild population can have on climate change.</p>
+            <p>I feel very privileged to have the opportunity to learn to code, and as a result I want to give back, in areas that I am passionate about. I want to help educate those who may not ordinarily have the opportunity to learn, as well as encourage
+                those who feel they aren't capable of breaking into the tech industry. I would also like to use this opportunity to give a voice to those who aren't able to speak for themselves (animals).</p>
         </div>
         <div *ngIf="panelId==4">
             <h3>Creativity</h3>
-            <p>My creative goals (so far) are:</p>
-            <ul>
-                <li>To build an app to teach coding through a game format,
-                    <br>targeting specific areas within the tech industry</li>
-                <li>Inspired by duolingo, but to have it be more interactive and project-based</li>
-            </ul>
+            <p>In order to provide a platform for learning to kids, and to reach as many people as possible, I have deas to build an app to teach coding through a game format. This app was inspired by duolingo, but I intend for it to be more interactive
+                and project-based, while following a game-play.</p>
+            <p>I would like to use the skills learned through my Cert 3 in Media, and employ fun animations, as well as game-constructs in order to see the lessons learned implemented straight away.</p>
+            <p>I plan to build different themes which inspire people with different interests, as well as target specific areas within the tech industry, whether it be AI, cyber security, or functional app building.</p>
         </div>
-        <div *ngIf="panelId==5">Panel Process</div>
+        <div *ngIf="panelId==5">
+            <h3>Process of building this PWA</h3>
+        </div>
 
 
     </mat-drawer-content>
