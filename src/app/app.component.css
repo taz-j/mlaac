@@ -64,7 +64,7 @@
   }
   
   .mat-drawer-content {
-      background-image: url("https://static.vecteezy.com/system/resources/previews/000/151/791/non_2x/falling-numbers-matrix-background-vector.jpg");
+      background-image: url("/assets/matrix.jpg");
   }
   
   .mat-drawer-inner-container {
@@ -96,8 +96,13 @@
       font-size: 1.5em;
   }
   
+  #list {
+      text-indent: 20px;
+      margin-top: 0px;
+      opacity: 1;
+  }
+  
   ul {
-      font-size: 1.25em;
+      font-size: 1.20em;
       text-align: left;
-      text-indent: 30%;
   }
