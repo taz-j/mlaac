@@ -84,8 +84,20 @@
       word-spacing: 6px;
       color: white;
       font-family: 'Coda';
+      line-height: 1.5;
   }
   
   h3 {
       text-transform: uppercase;
+      font-size: 2em;
+  }
+  
+  p {
+      font-size: 1.5em;
+  }
+  
+  ul {
+      font-size: 1.25em;
+      text-align: left;
+      text-indent: 30%;
   }

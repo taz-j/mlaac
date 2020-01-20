@@ -1,13 +1,4 @@
-<p>HELLO {{panelId}}
-</p>
 <mat-drawer-container fullscreen="fullscreen">
-    <!--<mat-drawer mode="side" opened>
-            <button (click)="panelId=1" class="button-menu"> Call Me Taz</button><br>
-            <button (click)="panelId=2" class="button-menu"> 2020 </button><br>
-            <button (click)="panelId=3" class="button-menu"> Down The Line </button><br>
-            <button (click)="panelId=4" class="button-menu"> Creativity </button><br>
-            <button (click)="panelId=5" class="button-menu"> Process </button>
-        </mat-drawer> -->
     <mat-drawer mode="side" opened="opened">
         <table>
             <tr>
@@ -67,50 +58,55 @@
     <mat-drawer-content>
         <div *ngIf="panelId==1">
             <h3>Call Me Taz</h3>
-            <p>Hi, I'm Taz, a budding developer with a passion for technology.
-                <p>For the past 9 years I have been working in the Hospitality Industry, however I am undertaking the Coder Academy Fast Track Bootcamp course in order to upskill and change careers to become a Software Developer. I have previously undertaken
-                    a Cert 3 in Media, which I feel gives me a solid foundation for studing code. I am also very much a 'girly-girl' by stereotypical standards, and have also studied Hairdressing and Make-up, gaining a Diploma of Specialist Make-up Services.</p>
-                <p>
-                    I want to showcase that being a Woman in Tech can have many different appearances, and that just because someone is girly and may look like a 'bimbo', that doesn't mean they don't have the capacity to learn how to code.</p>
-                <p>
-                    I am also incredibly passionate about animals, having rescued a fair few over the years. A particular passion of mine is reptiles, which is largely due to how misunderstood they are. I would love to use tech to educate people on how we can help facilitate
-                    healthy animal keeping and breeding in Australia, as well as globally.
-                </p>
-                <!-- 
-                    <ul>
-                         <li>Work background</li>
-                         <li>Cert 3 Media</li>
-                         <li>Girly girl - Make-up/hair</li>
-                         <li>Showcase that Women is tech can still be girly</li>
-                         <li>Passionate about animals</li>
-                    </ul>-->
+            <p>Hi, I'm Taz, a budding developer with a passion for technology!</p>
+            <p>For the past few years I’ve been working in the Hospitality Industry. I’m undertaking the Coder Academy Fast Track Bootcamp course in order to upskill and change careers to become a Software Developer. I previously gained a Cert 3 in Media,
+                which I feel gives me a solid foundation for studying code. </p>
+
+            <p>After leaving school I studied Hairdressing and Make-up, gaining a Diploma of Specialist Make-up Services. The fact that Media and Beauty are two very different paths is testament to my diversity. Long term though, I believe I will offer more
+                value as a technology specialist, and I’m pretty sure I’ll enjoy it more.</p>
         </div>
 
         <div *ngIf="panelId==2">
             <h3>2020</h3>
-            <p>In 2020 I am undertaking the Coder Academy Fast Track Bootcamp course, in the hopes of securing paid employment as a developer upon completion. I have decided to work towards a carreer in software in order to give myself more opportunity in
-                life, as well as working in an industry that is intelllectually stimulating. Through self-study, I have found coding to be extremely fun, though also challenging, and I am thoroughly enjoying learning to solve problems and create awesome
-                things, which is helping me believe in my own capabilities, and has cemented my belief that I will be a valueable asset in the tech community.</p>
+            <p>In 2020 I am undertaking the Coder Academy Fast Track Bootcamp course, in the hopes of securing paid employment as a developer upon completion. I have decided to work towards a career in software in order to give myself more opportunity in
+                life, as well as working in an industry that is intellectually stimulating. </p>
+            <p>Through self-study, I have found coding to be extremely fun, though also challenging, and I am thoroughly enjoying learning to solve problems and create awesome things, which is helping me believe in my own capabilities, and has cemented my
+                belief that I will be a valuable asset in the tech community.</p>
         </div>
 
         <div *ngIf="panelId==3">
             <h3>Down the Line</h3>
-            <p>Down the Line I hope to volunteer in developing countries to teach kids how to code. I would also like to mentor other women coming into the tech industry, to give back to a community that has welcomed and supported me while undertaking a
-                new career path.</p>
-            <p>I would also like to use tech to educate people on Wildlife, and pair with Animal Rescues in order to reach more people on how we, as a global community, can help reduce the impact we have on natural ecosystems.</p>
-            <p>I have a partiular passion for reptiles, as I feel they are incredibly misunderstood, and a lot of people don't realise how valuable they are to ecosystems, and the impact that decimating the wild population can have on climate change.</p>
-            <p>I feel very privileged to have the opportunity to learn to code, and as a result I want to give back, in areas that I am passionate about. I want to help educate those who may not ordinarily have the opportunity to learn, as well as encourage
-                those who feel they aren't capable of breaking into the tech industry. I would also like to use this opportunity to give a voice to those who aren't able to speak for themselves (animals).</p>
+            <p>Down the Line, I would love to use tech to educate people on Wildlife, and pair with Animal Rescues in order to reach more people on how we, as a global community, can help reduce the impact we have on natural ecosystems.</p>
+            <p>I have a particular passion for reptiles, as I feel they are incredibly misunderstood. A lot of people don't realise how valuable they are to ecosystems, and the impact that decimating the wild population can have on climate change.</p>
+            <p>I feel very privileged to have the opportunity to learn to code, and as a result I want to give back in areas that I am passionate about. Specifically, I would like to use this opportunity to give a voice to those who aren't able to speak
+                for themselves (animals).
+                <p>In addition to this, I would like to encourage others coming into the tech industry by either mentoring women, or potentially volunteering in a developing country to teach kids how to code.</p>
+
         </div>
         <div *ngIf="panelId==4">
             <h3>Creativity</h3>
-            <p>In order to provide a platform for learning to kids, and to reach as many people as possible, I have deas to build an app to teach coding through a game format. This app was inspired by duolingo, but I intend for it to be more interactive
-                and project-based, while following a game-play.</p>
-            <p>I would like to use the skills learned through my Cert 3 in Media, and employ fun animations, as well as game-constructs in order to see the lessons learned implemented straight away.</p>
-            <p>I plan to build different themes which inspire people with different interests, as well as target specific areas within the tech industry, whether it be AI, cyber security, or functional app building.</p>
+            <p>I believe that creativity is a vital component in software development. It takes a creative mind to think outside the box and come up with inventive ways of developing apps, or designing solutions. When I look around at some of the people
+                I most admire in tech, its their ability to translate technical skill into a viable product that I admire most.</p>
+            <p>Now that I’ve committed myself to this journey, I intend to apply my unique creative capabilities to the process of designing, developing, communicating with customers/stakeholders, and delivering software.
+
+                <p>One idea that I have in this space, is to create an app - inspired by duo-lingo - to teach programming languages in an interactive and dynamic way, while using a game-play format to present the information.</p>
+
+                <p>Throughout my life I have continually found the creative process inspirational and fulfilling. I can’t wait to practice using it in the coming years.</p>
+
         </div>
         <div *ngIf="panelId==5">
-            <h3>Process of building this PWA</h3>
+            <h3>Process</h3>
+            <p>I spent some time in the past 2 years doing some self-study in software development. I decided to start with using the Angular framework along with the inevitable HTML, CSS & JavaScript. This site you’re looking at was build from the ground
+                up in Angular 8 as a Single Page application. I know it’s not perfect, for example it doesn’t fit perfectly on all device sizes, and I still need to get the service workers functional to make it a progressive web app. </p>
+            <p>I think this app does showcase some of my learnings, for example:</p>
+            <div id="list">
+                <li>Using Angular to create an app</li>
+                <li>Using HTML to build the page components</li>
+                <li>Building a menu with special formatting (I used HTML tables)</li>
+                <li>Using CSS to style what you see</li>
+                <li>Using JavaScript to call function that changes the content of the page</li>
+                </ul>
+            </div>
         </div>
 
 
